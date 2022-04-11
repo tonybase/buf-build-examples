@@ -1,4 +1,4 @@
-module github.com/tonybase/buf-build-examples
+module github.com/tonybase/buf-build-examples/opentelemetry-go
 
 go 1.17
 

@@ -2,9 +2,9 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/tonybase/buf-build-examples/proto
+    default: github.com/tonybase/buf-build-examples/opentelemetry-go/proto
     override:
-      buf.build/opentelemetry/opentelemetry: github.com/tonybase/buf-build-examples/proto
+      buf.build/opentelemetry/opentelemetry: github.com/tonybase/buf-build-examples/opentelemetry-go/proto
 plugins:
   - name: go
     out: proto
