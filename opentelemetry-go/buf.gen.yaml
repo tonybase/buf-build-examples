@@ -6,9 +6,9 @@ managed:
     override:
       buf.build/opentelemetry/opentelemetry: github.com/tonybase/buf-build-examples/opentelemetry-go/proto
 plugins:
-  - name: go
+  - remote: buf.build/protocolbuffers/plugins/go:v1.27.1-1
     out: proto
     opt: paths=source_relative
-  - name: go-grpc
+  - remote: buf.build/grpc/plugins/go:v1.1.0-1
     out: proto
     opt: paths=source_relative
